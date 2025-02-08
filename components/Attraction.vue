@@ -19,6 +19,13 @@
   max-width: 20rem;
   text-align: center;
 }
+
+.image img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
 a {
   color: deepskyblue;
 }
