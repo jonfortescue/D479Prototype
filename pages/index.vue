@@ -3,7 +3,7 @@ const attractions = [
   {
     title: 'Taniti City',
     description: "Native architecture and beautiful beaches",
-    image: './img/taniti_city.jpg',
+    image: '/img/taniti_city.jpg',
     imageAlt: 'Aerial photo of Taniti City',
     attribution: 'Asad, Ibrahim. March 27, 2015.',
     link: 'https://commons.wikimedia.org/wiki/File:Male_City_Aerial,_The_Capital_city_of_Maldives_-_panoramio.jpg',
@@ -12,7 +12,7 @@ const attractions = [
   {
     title: 'Taniti Rainforest',
     description: "The perfect hiking destination",
-    image: './img/taniti_rainforest.jpg',
+    image: '/img/taniti_rainforest.jpg',
     imageAlt: 'Aerial photo of Taniti Rainforest',
     attribution: 'Moffat, Tim. February 16, 2013.',
     link: 'https://www.flickr.com/photos/23510510@N03/8477162479',
@@ -21,7 +21,7 @@ const attractions = [
   {
     title: 'Mount Taniti',
     description: "An active volcano and the mother of Taniti",
-    image: './img/mount_taniti.jpg',
+    image: '/img/mount_taniti.jpg',
     imageAlt: 'Fiery photo of Mount Taniti actively erupting',
     attribution: 'Ignatius, Howard. January 28, 2018.',
     link: 'https://www.flickr.com/photos/howardignatius/39053763465',
