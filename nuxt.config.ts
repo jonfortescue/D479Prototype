@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/ui', 'nuxt-icon', '@nuxtjs/google-fonts'],
 
-  css: ['~/assets/css/main.css'],
+  css: ['assets/css/main.css'],
 
   googleFonts: {
     download: true,

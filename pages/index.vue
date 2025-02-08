@@ -107,7 +107,6 @@ definePageMeta({
 }
 
 .carousel {
-  color: black;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -132,7 +131,6 @@ definePageMeta({
 }
 
 .testimonial-section {
-  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

@@ -6,6 +6,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   background-color: lightgray;
+  color: black;
 }
 
 h1 {
