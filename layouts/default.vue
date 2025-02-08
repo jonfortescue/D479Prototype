@@ -10,6 +10,6 @@
 
 <style scoped>
 #page {
-  min-height: 85vh;
+  min-height: 80vh;
 }
 </style>
