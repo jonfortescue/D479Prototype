@@ -51,7 +51,7 @@ definePageMeta({
             <div class="carousel-image">
               <img :src="item.image" :alt="item.imageAlt" />
               <div class="carousel-caption">
-                {{ item.attribution }} <NuxtLink :to="item.link" class="special-link" target="_blank">Link</NuxtLink>. Accessed on February 7, 2025. ({{ item.license }})
+                {{ item.attribution }} <a :href="item.link" class="special-link" target="_blank">Link</a>. Accessed on February 7, 2025. ({{ item.license }})
               </div>
             </div>
             <div class="carousel-description">
