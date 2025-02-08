@@ -41,6 +41,15 @@
             </div>
 
             <div class="question">
+              <h3>What are the rules around alcohol consumption?</h3>
+              <div class="answer">
+                Alcohol is legal on Taniti, but the sale or serving of alcohol between the hours of midnight and 9 am
+                is prohibited on the island. Additionally, the drinking age is 18. We ask that you respect our local
+                laws during your visit. Thank you!
+              </div>
+            </div>
+
+            <div class="question">
               <h3>What currency is used on Taniti?</h3>
               <div class="answer">
                 Taniti uses the American dollar (USD). Many businesses will also accept euros or Japanese yen and

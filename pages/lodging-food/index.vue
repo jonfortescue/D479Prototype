@@ -29,6 +29,11 @@
         <div class="description">
           The local cuisine is the star of the show in Taniti with five restaurants offering delectable seafood fare.
           There are also pan-Asian and American restaurants for those in need of comfort food.
+          <br/><br/>
+          <em>
+            Please note that alcohol is not allowed to be served or sold in Taniti between midnight and 9 am.
+            Additionally, the drinking age is 18. We ask that you be respectful of our local laws during your stay. Thank you!
+          </em>
         </div>
         <div class="attractions">
           <Attraction attraction="Under the Sea" description="A one-of-a-kind underwater dining experience with local fare."
@@ -69,7 +74,7 @@
 
 .attractions {
   width: 90%;
-  margin: auto;
+  margin: auto auto 5rem auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

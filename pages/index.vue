@@ -153,13 +153,13 @@ definePageMeta({
 }
 
 a {
-  color: deepskyblue;
+  color: dodgerblue;
 }
 a:visited {
-  color: deepskyblue;
+  color: dodgerblue;
 }
 a:hover {
-  color: deepskyblue;
+  color: dodgerblue;
   text-decoration-line: underline;
 }
 </style>
