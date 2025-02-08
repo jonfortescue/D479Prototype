@@ -3,6 +3,9 @@
 </template>
 
 <style>
+@import "tailwindcss";
+@import "@nuxt/ui";
+
 body {
   font-family: 'Nunito', sans-serif;
   background-color: lightgray;
