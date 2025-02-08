@@ -3,7 +3,7 @@ const attractions = [
   {
     title: 'Taniti City',
     description: "Native architecture and beautiful beaches",
-    image: '/img/taniti_city.jpg',
+    image: './img/taniti_city.jpg',
     imageAlt: 'Aerial photo of Taniti City',
     attribution: 'Asad, Ibrahim. March 27, 2015.',
     link: 'https://commons.wikimedia.org/wiki/File:Male_City_Aerial,_The_Capital_city_of_Maldives_-_panoramio.jpg',
@@ -12,7 +12,7 @@ const attractions = [
   {
     title: 'Taniti Rainforest',
     description: "The perfect hiking destination",
-    image: '/img/taniti_rainforest.jpg',
+    image: './img/taniti_rainforest.jpg',
     imageAlt: 'Aerial photo of Taniti Rainforest',
     attribution: 'Moffat, Tim. February 16, 2013.',
     link: 'https://www.flickr.com/photos/23510510@N03/8477162479',
@@ -21,7 +21,7 @@ const attractions = [
   {
     title: 'Mount Taniti',
     description: "An active volcano and the mother of Taniti",
-    image: '/img/mount_taniti.jpg',
+    image: './img/mount_taniti.jpg',
     imageAlt: 'Fiery photo of Mount Taniti actively erupting',
     attribution: 'Ignatius, Howard. January 28, 2018.',
     link: 'https://www.flickr.com/photos/howardignatius/39053763465',
@@ -43,7 +43,7 @@ definePageMeta({
             v-slot="{ item }"
             loop
             dots
-            :autoplay="{ delay: 5000 }"
+            :autoplay="{ delay: 3000 }"
             :items="attractions"
             :ui="{ item: 'basis-full' }"
             class="ucarousel">
@@ -62,6 +62,33 @@ definePageMeta({
             </div>
           </div>
         </UCarousel>
+      </div>
+
+      <div class="testimonial-section">
+        <div class="testimonial">
+          <div class="quote">
+            Taniti was everything I wanted it to be and more. Our honeymoon was made all the more magical for it!
+          </div>
+          <div class="quotee">
+            Liz Rugbrian
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            Could there be a more perfect island? I don't think so!
+          </div>
+          <div class="quotee">
+            Matt Morgerberger
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="quote">
+            It's a-me, Mario!
+          </div>
+          <div class="quotee">
+            Mario
+          </div>
+        </div>
       </div>
     </NuxtLayout>
   </div>
@@ -82,7 +109,7 @@ definePageMeta({
 .carousel {
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 5rem;
   margin: 7.5rem auto;
@@ -102,6 +129,29 @@ definePageMeta({
 
 .carousel-image img {
   width: 500px;
+}
+
+.testimonial-section {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.testimonial {
+  max-width: 20rem;
+  margin: auto 0;
+}
+
+.quote {
+  font-size: 1.3em;
+  padding: 2rem 0;
+}
+
+.quotee {
+  font-style: italic;
 }
 
 a {
